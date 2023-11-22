@@ -1,4 +1,4 @@
-package LABexe.lab2;
+
 
 public class StringFunctions {
     public static void main(String[] args) {
