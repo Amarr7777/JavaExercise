@@ -1,4 +1,4 @@
-package LABexe.lab1;
+package lab1;
 
 public class BankAccount {
     private int accNumber;

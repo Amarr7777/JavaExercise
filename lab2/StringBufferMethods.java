@@ -4,7 +4,7 @@ public class StringBufferMethods {
 
         // 1. append()
         stringBuffer.append("World!");
-        System.out.println("After append(): " + stringBuffer);
+        System.out.println("\nAfter append(): " + stringBuffer);
 
         // 2. insert()
         stringBuffer.insert(7, "Java ");
@@ -42,12 +42,12 @@ public class StringBufferMethods {
         String stringRepresentation = stringBuffer.toString();
         System.out.println("String representation: " + stringRepresentation);
 
-        // 11. substring(int start)
+        // 11. substring()
         String substringFromIndex = stringBuffer.substring(6);
         System.out.println("Substring from index 6: " + substringFromIndex);
 
-        // 12. substring(int start, int end)
+        // 12. substring()
         String substringInRange = stringBuffer.substring(0, 4);
-        System.out.println("Substring from index 0 to 4: " + substringInRange);
+        System.out.println("Substring from index 0 to 4: \n" + substringInRange);
     }
 }
