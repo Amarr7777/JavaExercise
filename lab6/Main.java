@@ -16,7 +16,6 @@ public class Main {
         double stockPortfolioValue = stockPortfolio.calculateTotalValue();
         System.out.println("Stock Portfolio Value: ₹" + stockPortfolioValue);
 
-        // Create an investment portfolio for bonds
         InvestmentPortfolio<Bond> bondPortfolio = new InvestmentPortfolio<>();
 
         Bond bond1 = new Bond(1000.0, 950.0);
